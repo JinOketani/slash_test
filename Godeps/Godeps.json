@@ -1,0 +1,85 @@
+{
+	"ImportPath": "github.com/JinOketani/slash_test",
+	"GoVersion": "go1.10",
+	"GodepVersion": "v80",
+	"Deps": [
+		{
+			"ImportPath": "github.com/golang/protobuf/proto",
+			"Rev": "0fd8c908d872c921af513ef5091964bbd2e0d904"
+		},
+		{
+			"ImportPath": "github.com/gorilla/websocket",
+			"Comment": "v1.2.0-10-gc908dc8",
+			"Rev": "c908dc801cef474e686e478694c8f9f32e233901"
+		},
+		{
+			"ImportPath": "github.com/nlopes/slack",
+			"Comment": "v0.4.0-35-g38ac5e8",
+			"Rev": "38ac5e8c495bc1d4d299c6a14930376f32145eb8"
+		},
+		{
+			"ImportPath": "github.com/nlopes/slack/slackutilsx",
+			"Comment": "v0.4.0-35-g38ac5e8",
+			"Rev": "38ac5e8c495bc1d4d299c6a14930376f32145eb8"
+		},
+		{
+			"ImportPath": "github.com/pkg/errors",
+			"Comment": "v0.8.0-13-gc059e47",
+			"Rev": "c059e472caf75dbe73903f6521a20abac245b17f"
+		},
+		{
+			"ImportPath": "golang.org/x/net/context",
+			"Rev": "1c05540f6879653db88113bc4a2b70aec4bd491f"
+		},
+		{
+			"ImportPath": "google.golang.org/appengine",
+			"Comment": "v1.1.0-2-g4216e58",
+			"Rev": "4216e58b9158e5f1c906f1aca75162a46a2ec88a"
+		},
+		{
+			"ImportPath": "google.golang.org/appengine/internal",
+			"Comment": "v1.1.0-2-g4216e58",
+			"Rev": "4216e58b9158e5f1c906f1aca75162a46a2ec88a"
+		},
+		{
+			"ImportPath": "google.golang.org/appengine/internal/app_identity",
+			"Comment": "v1.1.0-2-g4216e58",
+			"Rev": "4216e58b9158e5f1c906f1aca75162a46a2ec88a"
+		},
+		{
+			"ImportPath": "google.golang.org/appengine/internal/base",
+			"Comment": "v1.1.0-2-g4216e58",
+			"Rev": "4216e58b9158e5f1c906f1aca75162a46a2ec88a"
+		},
+		{
+			"ImportPath": "google.golang.org/appengine/internal/datastore",
+			"Comment": "v1.1.0-2-g4216e58",
+			"Rev": "4216e58b9158e5f1c906f1aca75162a46a2ec88a"
+		},
+		{
+			"ImportPath": "google.golang.org/appengine/internal/log",
+			"Comment": "v1.1.0-2-g4216e58",
+			"Rev": "4216e58b9158e5f1c906f1aca75162a46a2ec88a"
+		},
+		{
+			"ImportPath": "google.golang.org/appengine/internal/modules",
+			"Comment": "v1.1.0-2-g4216e58",
+			"Rev": "4216e58b9158e5f1c906f1aca75162a46a2ec88a"
+		},
+		{
+			"ImportPath": "google.golang.org/appengine/internal/remote_api",
+			"Comment": "v1.1.0-2-g4216e58",
+			"Rev": "4216e58b9158e5f1c906f1aca75162a46a2ec88a"
+		},
+		{
+			"ImportPath": "google.golang.org/appengine/internal/urlfetch",
+			"Comment": "v1.1.0-2-g4216e58",
+			"Rev": "4216e58b9158e5f1c906f1aca75162a46a2ec88a"
+		},
+		{
+			"ImportPath": "google.golang.org/appengine/urlfetch",
+			"Comment": "v1.1.0-2-g4216e58",
+			"Rev": "4216e58b9158e5f1c906f1aca75162a46a2ec88a"
+		}
+	]
+}

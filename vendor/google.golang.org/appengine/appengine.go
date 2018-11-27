@@ -6,7 +6,7 @@
 //
 // For more information on how to write Go apps for Google App Engine, see:
 // https://cloud.google.com/appengine/docs/go/
-package appengine // import "google.golang.org/appengine"
+package appengine
 
 import (
 	"net/http"
@@ -58,24 +58,6 @@ func Main() {
 // development App Server.
 func IsDevAppServer() bool {
 	return internal.IsDevAppServer()
-}
-
-// IsStandard reports whether the App Engine app is running in the standard
-// environment. This includes both the first generation runtimes (<= Go 1.9)
-// and the second generation runtimes (>= Go 1.11).
-func IsStandard() bool {
-	return internal.IsStandard()
-}
-
-// IsFlex reports whether the App Engine app is running in the flexible environment.
-func IsFlex() bool {
-	return internal.IsFlex()
-}
-
-// IsAppEngine reports whether the App Engine app is running on App Engine, in either
-// the standard or flexible environment.
-func IsAppEngine() bool {
-	return internal.IsAppEngine()
 }
 
 // NewContext returns a context for an in-flight HTTP request.
